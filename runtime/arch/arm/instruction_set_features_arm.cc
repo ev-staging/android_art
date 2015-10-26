@@ -91,7 +91,8 @@ ArmFeaturesUniquePtr ArmInstructionSetFeatures::FromVariant(
         "cortex-a9",
         "cortex-a9-mp",
         "default",
-        "generic"
+        "generic",
+        "scorpion"
     };
     if (!FindVariantInArray(arm_variants_with_default_features,
                             arraysize(arm_variants_with_default_features),
